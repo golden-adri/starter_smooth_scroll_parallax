@@ -15,6 +15,12 @@ npm install
 
 ## Instructions
 
+To add some dom object with parallax, add the class "move" to the object, and add the attribute data-speed with a value between 0 and 1 like this :
+```
+<div class="move" data-speed="0.3"></div>
+```
+
+
 To launch all the tasks for work (js with sourcemaps) launch :
 ```
 gulp
