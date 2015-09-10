@@ -33,7 +33,7 @@ gulp prod
 
 ## Thanks
 
-Thanks to <a href="https://github.com/nicolas-daniel">Nicolas Daniel</a> for his some tips.
+Thanks to <a target="_blank" href="https://github.com/nicolas-daniel">Nicolas Daniel</a> for his some tips.
 
 ## Version
 
