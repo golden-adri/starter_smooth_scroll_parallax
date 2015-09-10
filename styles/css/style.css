@@ -45,5 +45,33 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-body {
+.box {
+  position: absolute; }
+
+#box1 {
+  width: 200px;
+  height: 300px;
+  top: 200px;
+  left: 500px;
+  background-color: blue; }
+
+#box2 {
+  width: 200px;
+  height: 500px;
+  top: 600px;
+  left: 200px;
   background-color: #fa1a4a; }
+
+#box3 {
+  width: 200px;
+  height: 1000px;
+  top: 1400px;
+  left: 600px;
+  background-color: yellow; }
+
+#box4 {
+  width: 200px;
+  height: 150px;
+  top: 1200px;
+  left: 300px;
+  background-color: green; }
