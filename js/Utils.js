@@ -1,6 +1,6 @@
 export default class Utils {
 
-  	static getSupportedPropertyName(property) {
+  	static GetSupportedPropertyName(property) {
 	    var prefixes = ['', 'ms', 'Webkit', 'Moz', 'O'];
 	    
 	    for(var i = 0; i < prefixes.length; i++) {
@@ -15,8 +15,17 @@ export default class Utils {
 	    return null;
 	}
 
-	static getScrollTop() {
+	static GetScrollTop() {
 	     return (window.pageYOffset || document.documentElement.scrollTop)  - (document.documentElement.clientTop || 0);
+	}
+	static Raf() {
+	    return window.requestAnimationFrame ||
+	        window.webkitRequestAnimationFrame ||
+	        window.mozRequestAnimationFrame ||
+	        window.msRequestAnimationFrame ||
+	        window.oRequestAnimationFrame ||
+	        // IE Fallback, you can even fallback to onscroll
+	        function(callback){ window.setTimeout(callback, 1000/60) };
 	}
 
 }
